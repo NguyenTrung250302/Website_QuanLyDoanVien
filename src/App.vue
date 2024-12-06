@@ -6,9 +6,9 @@ const color = ref("color_red");
 const disable = ref(false);
 
 function change_color() {
-  color.value = "blue";
+  color.value = "green";
   disable.value = true;
-  number.value = 4;
+  number.value = 5;
 }
 </script>
 
