@@ -17,6 +17,7 @@ function change_color() {
     <h1 :id="color">{{ message }} : {{ number }}</h1>
     <button @click="change_color" :disabled="disable">click</button>
     <div class="background main"><h1>new cmt</h1></div>
+    <div>test two</div>
   </div>
 </template>
 
