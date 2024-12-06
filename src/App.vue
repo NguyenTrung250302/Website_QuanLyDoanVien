@@ -8,7 +8,7 @@ const disable = ref(false);
 function change_color() {
   color.value = "blue";
   disable.value = true;
-  number.value = 5;
+  number.value = 1;
 }
 </script>
 
